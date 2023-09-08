@@ -1,9 +1,14 @@
-import React from 'react';
-import { render, screen } from '@testing-library/react';
-import App from './App';
+import { render, screen } from "@testing-library/react";
+import App from "./App";
 
-test('renders learn react link', () => {
+test("should render the nav bar", () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const navBar = screen.getByTestId("navBar");
+  expect(navBar).toBeInTheDocument();
+});
+
+test("should renders the bottom nav bar", () => {
+  render(<App />);
+  const bottomNavBar = screen.getByTestId("bottomNavBar");
+  expect(bottomNavBar).toBeInTheDocument();
 });
