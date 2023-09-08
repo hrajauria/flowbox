@@ -37,6 +37,18 @@ The following improvements could be added to the application -
 
 4. A theme provider can be created with color pallette options and size functions to have a constant look for the application.
 
+5. husky should be added to create git hooks
+
+## Docker
+
+For creating an image of the application, you can run:
+
+### `docker build -t flowbox-image .`
+
+For running the container, you can run:
+
+### `docker compose up -d`
+
 ## Available Scripts
 
 In the project directory, you can run:
