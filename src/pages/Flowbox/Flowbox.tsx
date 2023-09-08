@@ -90,6 +90,7 @@ export function Flowbox({ appError }: { appError: boolean }) {
             sx={{
               maxHeight: "calc(100vh - 56px - 56px)",
               overflowY: "scroll",
+              height: "100%",
             }}
             data-testid="layoutBox"
           >
