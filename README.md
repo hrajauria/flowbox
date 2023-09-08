@@ -2,14 +2,14 @@
 
 This application has been developed with the following technical details in mind -
 
-1. It is structured into the following structure -
-   a. components - contains all the UI building blocks for the application. The focus is on creating pure components to keep them as reusable as possible.
-   b. context - contains all context related functions
-   c. data - houses all api and mock releated functions
-   d. hooks - contains all custom hooks
-   e. pages - contains all entry point HOCs for routes
-   f. types - contains typings for all functions
-   g. utils - contains all utility function of the application
+1. It is structured into the following structure - \
+   a. components - contains all the UI building blocks for the application. The focus is on creating pure components to keep them as reusable as possible.\
+   b. context - contains all context related functions\
+   c. data - houses all api and mock releated functions\
+   d. hooks - contains all custom hooks\
+   e. pages - contains all entry point HOCs for routes\
+   f. types - contains typings for all functions\
+   g. utils - contains all utility function of the application\
 
 2. Unit tests have been added using Jest and RTL for UI components.
 
@@ -21,9 +21,9 @@ This application has been developed with the following technical details in mind
 
 6. MUI has been used as the component library.
 
-7. For styling components, teh following two approaches are taken -
-   a. MUI Components - sx property is used
-   b. Generic Components - styled function from MUI is used to create custom styled components
+7. For styling components, teh following two approaches are taken - \
+   a. MUI Components - sx property is used \
+   b. Generic Components - styled function from MUI is used to create custom styled components \
 
 # Next Steps
 
