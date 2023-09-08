@@ -24,13 +24,6 @@ function App() {
     pageNumber: 1,
   };
 
-  /* 
-    Things that could be done - 
-      1. Login page should be added for authentication of the application
-      2. A theme provider can be created with color pallette options and size functions to have 
-        a constant look for the application
-      3. React error boundary should be implemented to catch all errors from anywhere in the component tree.
-  */
   return (
     <ErrorBoundary
       onError={handleError}
