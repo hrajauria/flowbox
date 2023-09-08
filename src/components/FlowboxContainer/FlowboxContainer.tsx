@@ -8,7 +8,7 @@ export const FlowboxContainer = ({ children }: { children: ReactNode }) => {
       sx={{
         display: "flex",
         flexDirection: "column",
-        height: "100%",
+        height: "100vh",
       }}
     >
       {children}
